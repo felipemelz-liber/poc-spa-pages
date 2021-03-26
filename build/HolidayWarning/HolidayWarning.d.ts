@@ -1,4 +1,2 @@
-declare const HolidayWarning: ({ theme }: {
-    theme: any;
-}) => JSX.Element;
+declare const HolidayWarning: () => JSX.Element;
 export default HolidayWarning;

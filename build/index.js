@@ -8,12 +8,9 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 
 var React__default = /*#__PURE__*/_interopDefaultLegacy(React);
 
-var HolidayWarning = function (_a) {
-    var theme = _a.theme;
-    return (React__default['default'].createElement("div", { className: "test-component test-component-" + theme },
-        React__default['default'].createElement("h1", { className: "heading" }, "I'm the test component"),
-        React__default['default'].createElement("h2", null, "Made with love by Harvey")));
-};
+var HolidayWarning = function () { return (React__default['default'].createElement("div", null,
+    React__default['default'].createElement("h1", null, "I'm the test component"),
+    React__default['default'].createElement("h2", null, "Made with love by Harvey"))); };
 
 exports.HolidayWarning = HolidayWarning;
 //# sourceMappingURL=index.js.map
