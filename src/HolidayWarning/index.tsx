@@ -8,7 +8,7 @@ import { Container, FlashAlert } from './styles';
 const carnivalDate = moment('18/02/2021', 'DD/MM/YYYY');
 const advancedHolidayDate = moment('05/04/2021', 'DD/MM/YYYY');
 
-function View() {
+const HolidayWarning = () => {
   const carnival = () => moment().startOf('day').isBefore(carnivalDate);
   const advancedHoliday = () => moment().startOf('day').isBefore(advancedHolidayDate);
 
@@ -37,4 +37,4 @@ function View() {
   );
 }
 
-export default View;
+export default { HolidayWarning };
