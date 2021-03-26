@@ -1,11 +1,11 @@
 import React from "react";
 import { render } from "@testing-library/react";
 
-import TestComponent from "./TestComponent";
-import { TestComponentProps } from "./TestComponent.types";
+import HolidayWarning from "./HolidayWarning";
+import { HolidayWarningProps } from "./HolidayWarning.types";
 
 describe("Test Component", () => {
-  let props: TestComponentProps;
+  let props: HolidayWarningProps;
 
   beforeEach(() => {
     props = {
@@ -13,7 +13,7 @@ describe("Test Component", () => {
     };
   });
 
-  const renderComponent = () => render(<TestComponent {...props} />);
+  const renderComponent = () => render(<HolidayWarning {...props} />);
 
   it("should have primary className with default props", () => {
     const { getByTestId } = renderComponent();

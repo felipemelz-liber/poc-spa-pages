@@ -1,3 +1,3 @@
-import TestComponent from "./TestComponent";
+import HolidayWarning from "./HolidayWarning";
 
-export { TestComponent };
+export { HolidayWarning };

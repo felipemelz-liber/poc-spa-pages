@@ -1,2 +1,2 @@
-import TestComponent from "./TestComponent";
-export { TestComponent };
+import HolidayWarning from "./HolidayWarning";
+export { HolidayWarning };
