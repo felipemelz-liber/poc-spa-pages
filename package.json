@@ -1,5 +1,5 @@
 {
-  "name": "react-component-library",
+  "name": "liber-standalone-pages",
   "version": "1.0.0",
   "main": "build/index.js",
   "module": "build/index.esm.js",
@@ -7,7 +7,7 @@
     "build"
   ],
   "types": "build/index.d.ts",
-  "description": "A skeleton to create your own React component library using Rollup, TypeScript, Sass and Storybook",
+  "description": "Componentes isolados utilizando Rollup, TypeScript, e Storybook",
   "scripts": {
     "build": "rollup -c",
     "test": "jest",
@@ -16,10 +16,6 @@
     "storybook:export": "build-storybook",
     "generate": "node ./util/create-component",
     "prepublishOnly": "npm run build"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/HarveyD/react-component-library.git"
   },
   "keywords": [
     "React",
@@ -30,12 +26,6 @@
     "Sass",
     "Storybook"
   ],
-  "author": "Harvey Delaney",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/HarveyD/react-component-library/issues"
-  },
-  "homepage": "https://github.com/HarveyD/react-component-library#readme",
   "peerDependencies": {
     "react": ">=16.8.0",
     "react-dom": ">=16.8.0"
@@ -67,6 +57,7 @@
     "typescript": "^4.1.3"
   },
   "dependencies": {
+    "@rollup/plugin-image": "^2.0.6",
     "@rollup/plugin-json": "^4.1.0",
     "liber-components": "git+ssh://git@github.com:libercapital/liber-components#3.30.0",
     "moment": "^2.29.1",
