@@ -37,4 +37,4 @@ const HolidayWarning = () => {
   );
 }
 
-export default { HolidayWarning };
+export default HolidayWarning;
