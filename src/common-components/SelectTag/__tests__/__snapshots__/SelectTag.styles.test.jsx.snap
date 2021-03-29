@@ -1,0 +1,118 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SelectTag styled components test should render Tag correctly 1`] = `
+<StyledComponent
+  forwardedComponent={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "sc-bdVaJa",
+        "isStatic": false,
+        "rules": Array [
+          "
+  cursor: pointer;
+",
+        ],
+      },
+      "displayName": "Styled(Tag)",
+      "foldedComponentIds": Array [],
+      "propTypes": Object {
+        "children": [Function],
+        "closable": [Function],
+        "height": [Function],
+        "onClose": [Function],
+        "variant": [Function],
+      },
+      "render": [Function],
+      "styledComponentId": "sc-bdVaJa",
+      "target": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "defaultProps": Object {
+          "children": "",
+          "closable": false,
+          "height": 28,
+          "onClose": [Function],
+          "variant": "default",
+        },
+        "displayName": "Tag",
+        "propTypes": Object {
+          "children": [Function],
+          "closable": [Function],
+          "height": [Function],
+          "onClose": [Function],
+          "variant": [Function],
+        },
+        "render": [Function],
+      },
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    }
+  }
+  forwardedRef={null}
+/>
+`;
+
+exports[`SelectTag styled components test should render WhiteTag correctly 1`] = `
+<StyledComponent
+  forwardedComponent={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "sc-bwzfXH",
+        "isStatic": false,
+        "rules": Array [
+          "--tag-border-color:",
+          [Function],
+          ";--tag-background-color:",
+          [Function],
+          ";--tag-color:",
+          [Function],
+          ";",
+          "
+  cursor: pointer;
+",
+        ],
+      },
+      "displayName": "Styled(WhiteTag)",
+      "foldedComponentIds": Array [
+        "Tags__WhiteTag-sc-1u635a7-7",
+      ],
+      "propTypes": Object {
+        "children": [Function],
+        "closable": [Function],
+        "height": [Function],
+        "onClose": [Function],
+        "variant": [Function],
+      },
+      "render": [Function],
+      "styledComponentId": "sc-bwzfXH",
+      "target": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "defaultProps": Object {
+          "children": "",
+          "closable": false,
+          "height": 28,
+          "onClose": [Function],
+          "variant": "default",
+        },
+        "displayName": "Tag",
+        "propTypes": Object {
+          "children": [Function],
+          "closable": [Function],
+          "height": [Function],
+          "onClose": [Function],
+          "variant": [Function],
+        },
+        "render": [Function],
+      },
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    }
+  }
+  forwardedRef={null}
+/>
+`;

@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SelectTag tests should render correctly with props 1`] = `
+<Styled(Tag)
+  height={36}
+  onClick={[Function]}
+  variant="rounded"
+/>
+`;
+
+exports[`SelectTag tests should render correctly without props 1`] = `
+<Styled(WhiteTag)
+  height={36}
+  onClick={[Function]}
+  variant="rounded"
+/>
+`;

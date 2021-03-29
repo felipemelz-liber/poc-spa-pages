@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ScreenTitle component tests should call onFilter when clicking on FilterButton 1`] = `
+<styled.span>
+  <Icon
+    color="currentColor"
+    data-testid="page-back-button"
+    horizontal={false}
+    onClick={[Function]}
+    path="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z"
+    rotate={0}
+    size={null}
+    spin={false}
+    vertical={false}
+  />
+  Mock Title
+</styled.span>
+`;
+
+exports[`ScreenTitle component tests should render ScreenTitle correctly with props 1`] = `
+<styled.span>
+  <Icon
+    color="currentColor"
+    data-testid="page-back-button"
+    horizontal={false}
+    onClick={[Function]}
+    path="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z"
+    rotate={0}
+    size={null}
+    spin={false}
+    vertical={false}
+  />
+  Mock Title
+</styled.span>
+`;
+
+exports[`ScreenTitle component tests should render ScreenTitle correctly without props 1`] = `
+<styled.span>
+  <div />
+</styled.span>
+`;

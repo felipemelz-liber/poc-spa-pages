@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoadingButton component tests should render correctly while loading 1`] = `
+<Buttons__PrimaryButton
+  disabled={true}
+  onClick={[Function]}
+  size="medium"
+  version={2}
+>
+  <styled.div
+    minWidth={-32}
+  >
+    <LoadingSpinner
+      color="white"
+      size="22px"
+      thickness={null}
+    />
+  </styled.div>
+</Buttons__PrimaryButton>
+`;
+
+exports[`LoadingButton component tests should render correctly with all props and size large 1`] = `
+<Buttons__PrimaryButton
+  disabled={false}
+  onClick={[Function]}
+  size="large"
+  version={2}
+>
+  Nome botão
+</Buttons__PrimaryButton>
+`;
+
+exports[`LoadingButton component tests should render correctly with all props and size medium 1`] = `
+<Buttons__PrimaryButton
+  disabled={false}
+  onClick={[Function]}
+  size="medium"
+  version={2}
+>
+  Nome botão
+</Buttons__PrimaryButton>
+`;
+
+exports[`LoadingButton component tests should render correctly with all props and size small 1`] = `
+<Buttons__PrimaryButton
+  disabled={false}
+  onClick={[Function]}
+  size="small"
+  version={2}
+>
+  Nome botão
+</Buttons__PrimaryButton>
+`;
+
+exports[`LoadingButton component tests should render correctly with custom spinner color 1`] = `
+<Buttons__PrimaryButton
+  disabled={false}
+  onClick={[Function]}
+  size="medium"
+  version={2}
+>
+  Nome botão
+</Buttons__PrimaryButton>
+`;
+
+exports[`LoadingButton component tests should render correctly with disabled prop 1`] = `
+<Buttons__PrimaryButton
+  disabled={true}
+  onClick={[Function]}
+  size="medium"
+  version={2}
+>
+  Nome botão
+</Buttons__PrimaryButton>
+`;
+
+exports[`LoadingButton component tests should render correctly without props 1`] = `
+<Buttons__SuccessButton
+  disabled={false}
+  onClick={[Function]}
+  size="medium"
+  version={2}
+>
+  Botão
+</Buttons__SuccessButton>
+`;

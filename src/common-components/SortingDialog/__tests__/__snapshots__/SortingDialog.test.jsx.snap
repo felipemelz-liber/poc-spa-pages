@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SortingDialog tests should render correctly without props 1`] = `
+<Dialog
+  cancelLabel="CANCELAR"
+  confirmationButtonProps={
+    Object {
+      "disabled": false,
+      "label": "ORDENAR",
+      "onConfirm": [Function],
+    }
+  }
+  onClose={[Function]}
+  open={false}
+  title="Ordenar Fornecedor"
+>
+  <styled.div>
+    <styled.span>
+      Ordenar por
+    </styled.span>
+    <Styled(styled.div) />
+    <styled.span>
+      Ordem
+    </styled.span>
+    <styled.div>
+      <SelectTag
+        key="asc"
+        onChange={[Function]}
+        selected={false}
+      >
+        Ascendente
+      </SelectTag>
+      <SelectTag
+        key="desc"
+        onChange={[Function]}
+        selected={false}
+      >
+        Descendente
+      </SelectTag>
+    </styled.div>
+  </styled.div>
+</Dialog>
+`;

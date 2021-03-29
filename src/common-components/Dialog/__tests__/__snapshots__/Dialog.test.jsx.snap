@@ -1,0 +1,112 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dialog tests should render correctly without props 1`] = `
+<Modal
+  animateFrom="-150px"
+  animation={
+    Object {
+      "in": "cubic-bezier(.17,1.92,.3,.71)",
+      "out": "cubic-bezier(1,.23,.76,-1.11)",
+    }
+  }
+  closable={true}
+  closeButton={false}
+  closeButtonPadding="10px 14px"
+  duration={270}
+  elementId="modal"
+  fullscreen={false}
+  insertComponent={null}
+  label=""
+  labelAlign="left"
+  onAppearStart={[Function]}
+  onAppeared={[Function]}
+  onLeaveStart={[Function]}
+  onLeaved={[Function]}
+  overflow=""
+  position={null}
+  show={false}
+>
+  <styled.div>
+    <styled.span />
+  </styled.div>
+  <styled.div />
+  <styled.div>
+    <StyledButtons__FlatButton
+      color="primary"
+      onClick={[Function]}
+    >
+      CANCELAR
+    </StyledButtons__FlatButton>
+    <LoadingButton
+      ButtonComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "_foldedDefaultProps": Object {
+            "color": "primary",
+          },
+          "attrs": Array [
+            [Function],
+          ],
+          "componentStyle": ComponentStyle {
+            "componentId": "StyledButtons__FlatButton-sc-1e7va4d-2",
+            "isStatic": false,
+            "rules": Array [
+              "--inner-button-text-color:var(--button-text-color,",
+              [Function],
+              ");--inner-button-ripple-color:var(--button-ripple-color,",
+              [Function],
+              ");padding:24px 0px;",
+              [Function],
+              " ",
+              [Function],
+              " background-color:",
+              [Function],
+              ";color:var(--inner-button-text-color);border:",
+              [Function],
+              ";border-radius:",
+              [Function],
+              ";font-family:",
+              [Function],
+              ";cursor:pointer;padding:0 16px;transition:all 450ms cubic-bezier(0.23,1,0.32,1) 0ms;box-sizing:border-box;display:inline-flex;align-items:center;justify-content:center;box-sizing:border-box;position:relative;overflow:hidden;&:focus{outline:0;}&::-moz-focus-inner{border:0;}&:disabled{opacity:0.38;cursor:default;pointer-events:none;}&:after{content:'';--ripple-color:;position:absolute;top:50%;left:50%;width:5px;height:5px;background:var(--inner-button-ripple-color);opacity:0;border-radius:100%;transform:scale(1,1) translate(-50%);transform-origin:50% 50%;}&:focus:not(:active)::after{animation:",
+              Keyframes {
+                "id": "sc-keyframes-kHeZab",
+                "inject": [Function],
+                "name": "kHeZab",
+                "rules": Array [
+                  "@-webkit-keyframes kHeZab{0%{-webkit-transform:scale(0,0);-ms-transform:scale(0,0);transform:scale(0,0);opacity:0.8;}20%{-webkit-transform:scale(25,25);-ms-transform:scale(25,25);transform:scale(25,25);opacity:0.8;}100%{opacity:0;-webkit-transform:scale(40,40);-ms-transform:scale(40,40);transform:scale(40,40);}}",
+                  "@keyframes kHeZab{0%{-webkit-transform:scale(0,0);-ms-transform:scale(0,0);transform:scale(0,0);opacity:0.8;}20%{-webkit-transform:scale(25,25);-ms-transform:scale(25,25);transform:scale(25,25);opacity:0.8;}100%{opacity:0;-webkit-transform:scale(40,40);-ms-transform:scale(40,40);transform:scale(40,40);}}",
+                ],
+                "toString": [Function],
+              },
+              " 0.8s ease-out;}& > svg{min-width:var(--icon-size,16px)!important;max-width:var(--icon-size,16px)!important;min-height:var(--icon-size,16px)!important;max-height:var(--icon-size,16px)!important;fill:var(--inner-button-text-color);margin-right:var(--svg-margin,12px);}",
+              "background-color:transparent;",
+              [Function],
+            ],
+          },
+          "displayName": "StyledButtons__FlatButton",
+          "foldedComponentIds": Array [
+            "StyledButtons__Button-sc-1e7va4d-0",
+          ],
+          "propTypes": Object {
+            "color": [Function],
+          },
+          "render": [Function],
+          "styledComponentId": "StyledButtons__FlatButton-sc-1e7va4d-2",
+          "target": "button",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      color="primary"
+      disabled={false}
+      loading={false}
+      onClick={[Function]}
+      size="medium"
+      spinnerColor="#009dff"
+    >
+      CONTINUAR
+    </LoadingButton>
+  </styled.div>
+</Modal>
+`;

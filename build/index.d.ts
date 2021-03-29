@@ -1,2 +1,3 @@
 import HolidayWarning from "./HolidayWarning";
-export { HolidayWarning };
+import BuyerAnticipationLimit from "./buyer-anticipation-limits";
+export { HolidayWarning, BuyerAnticipationLimit };
